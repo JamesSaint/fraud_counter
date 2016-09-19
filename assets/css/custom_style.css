@@ -12,7 +12,7 @@ Tags: HTML5, CSS3, JS, BootStrap 3.2.0.
 =            Web Fonts            =
 =================================*/
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
+@import 'https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600';
 
 /*-----  End of Web Fonts  ------*/
 
@@ -22,13 +22,13 @@ Tags: HTML5, CSS3, JS, BootStrap 3.2.0.
 ======================================*/
 
 ::selection {
-    background: #AE9B80;
+    background: #5A5A5A;
     /* Safari */
     color: #FFF;
 }
 
 ::-moz-selection {
-    background: #AE9B80;
+    background: #5A5A5A;
     /* Firefox */
     color: #FFF;
 }
@@ -46,7 +46,7 @@ Tags: HTML5, CSS3, JS, BootStrap 3.2.0.
 
 html, body {
   height: 100%;
-  background: #000;
+  background: transparent;
 }
 
 /*-----  End of Global Styles  ------*/
@@ -60,7 +60,7 @@ html, body {
   width:100%;
   text-align: center;  /* align the inline(-block) elements horizontally */
   font: 0/0 a;         /* remove the gap between inline(-block) elements */
-  background-color: #000;
+  background-color: #EEE;
 }
 
 .vertical-center:before {    /* create a full-height inline block pseudo=element */
@@ -74,12 +74,13 @@ html, body {
   max-width: 100%;
   display: inline-block;
   vertical-align: middle;  /* vertical alignment of the inline element */
-  font: 16px/1 "Open Sans", Helvetica, Arial, sans-serif;        /* <-- reset the font property */
+  font: 16px/1 'Titillium Web', sans-serif;       /* <-- reset the font property */
 }
 
 span#dollar-figure {
+  font-family: 'Titillium Web', sans-serif;
     text-align: center;
-    font-size: 80px;
+    font-size: 3em;
     font-weight: bold;
-    color: #AE9B80;
+    color: #5A5A5A;
 }

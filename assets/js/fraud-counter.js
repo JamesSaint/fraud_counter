@@ -21,7 +21,7 @@ $(document).ready(function() {
         startDate = new Date('1/1/2016 00:00:01 AM GMT').getTime();
         endDate = new Date().getTime();
         var fraudvalue = Math.floor((endDate - startDate) / 1000) * 549;
-        $('#dollar-figure').text('$ ' + fraudvalue.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,"));
+        $('#dollar-figure').text('£' + fraudvalue.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,"));
     };
     setInterval(function() {
         UpdateDollarz();
