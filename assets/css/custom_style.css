@@ -47,6 +47,7 @@ Tags: HTML5, CSS3, JS, BootStrap 3.2.0.
 html, body {
   height: 100%;
   background: transparent;
+  color: #5A5A5A;
 }
 
 /*-----  End of Global Styles  ------*/
@@ -80,7 +81,16 @@ html, body {
 span#dollar-figure {
   font-family: 'Titillium Web', sans-serif;
     text-align: center;
-    font-size: 3em;
-    font-weight: bold;
+    font-size: 4em;
     color: #5A5A5A;
+}
+
+h1.title {
+  display: block;
+  padding: 8px;
+}
+
+p.sub {
+  display: block;
+  padding: 4px;
 }
